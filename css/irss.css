@@ -1,0 +1,86 @@
+html,body {
+	font-size: 15px;
+	height: 100%;
+}
+
+.sidebar {
+	width: 275px;
+	height: 100%;
+	position: fixed;
+	background-color: #333333;
+}
+
+.item {
+	height: auto !important;
+	color: #FFF;
+	text-decoration: none;
+	vertical-align: middle;
+	font-size: 16px;
+	line-height: 1;
+	display: block;
+	position: relative;
+	padding: 14px 16px;
+}
+
+.item > .num_label {
+  float: right;
+  text-align: center;
+}
+
+.items {
+	height: auto !important;
+	color: #FFF;
+	text-decoration: none;
+	vertical-align: middle;
+	font-size: 16px;
+	line-height: 1;
+	display: block;
+	position: relative;
+	padding: 14px 16px;
+}
+
+.main {
+	margin-left: 280px;
+	width: 80%;
+	height: 100%;
+}
+
+.middle {
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+
+.right {
+	float: left;
+	width: 60%;
+	height: 100%;
+	color: #555555;
+	border-left: 1px solid #DFDFDF;
+	background-color: #FAFAFA;
+}
+
+.contain {
+	padding: 15px 30px;
+}
+
+.right .article_title {
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+.right p {
+	font-size: 15px;
+	text-align: left;
+	margin: 15px 0px;
+}
+
+.divider {
+	margin: 15px 0px;
+	border-bottom: 1px solid #DFDFDF;
+}
+
+.tab_title h2 {
+	font-size: 25px;
+	font: bold;
+}
