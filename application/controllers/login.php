@@ -21,6 +21,17 @@ class Login extends CI_Controller {
 	{
 		$this->load->view('login');
 	}
+    
+    function check() {
+
+        $url = base_url();
+
+        if ($this -> User_model -> check()) {
+            echo "OK";
+        } else {
+            echo "error";
+        }
+    }
 }
 
 /* End of file welcome.php */
